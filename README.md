@@ -1,75 +1,80 @@
-Network Packet Analyzer
+🌐 Network Packet Analyzer
 
-A simple packet sniffer built using Python and Scapy to understand how network communication works in real time.
+🚀 A beginner-friendly packet sniffer built using Python + Scapy to understand how data travels across the internet in real time.
 
-What This Project Does
+🧠 Why I Built This
 
-This tool captures live network packets and shows basic details like source IP, destination IP, protocol type, packet size, and payload data. It is mainly built for learning networking and cybersecurity concepts.
+I wanted to learn how devices actually communicate over a network. Instead of just studying theory, I built this tool to see real network traffic live and understand how packets move between systems.
 
-Features
+⚙️ What This Tool Can Do
 
-Captures real-time network traffic
+✨ Capture live network packets
+🌍 Show Source & Destination IP addresses
+📡 Detect protocols like TCP, UDP & ICMP
+📦 Display packet size and payload data
+📁 Save captured packets into log files
+🔍 List available network interfaces
 
-Shows IP addresses and protocol type
+🛠 Tech Stack
 
-Supports TCP, UDP, and ICMP filtering
+🐍 Python
+📡 Scapy (Packet Manipulation Library)
 
-Saves packet logs to a file
-
-Lists available network interfaces
-
-Tech Used
-
-Python
-
-Scapy
-
-How To Run
-
-Clone the project:
-
+🚀 How To Run
+Clone Repository
 git clone https://github.com/Aishwaryeahh-cy/-PRODIGY_Trackcode_TaskNumber.git
 
-
-Go inside folder:
-
+Move Into Folder
 cd PRODIGY_Trackcode_TaskNumber
 
-
-Install dependencies:
-
+Install Requirements
 pip install -r requirements.txt
 
-
-Run the sniffer:
-
+Start Sniffer
 python packet_sniffer.py
 
-Useful Commands
+🎯 Useful Commands
 
-Capture limited packets:
+👉 Capture limited packets
 
 python packet_sniffer.py --count 5
 
 
-Filter TCP traffic:
+👉 Capture only TCP traffic
 
 python packet_sniffer.py --tcp
 
 
-Save packets to file:
+👉 Capture only UDP traffic
+
+python packet_sniffer.py --udp
+
+
+👉 Save packets to file
 
 python packet_sniffer.py --log packets.txt
 
 
-List network interfaces:
+👉 Show network interfaces
 
 python packet_sniffer.py --list-interfaces
 
-Note
+⚠️ Important Note
 
-Run the program with administrator/root permission. Windows users must install Npcap.
+🔐 Run the tool with Administrator / Root privileges
 
-Disclaimer
+🪟 Windows users must install Npcap
+👉 https://npcap.com
 
-This project is only for educational and authorized testing purposes.
+📚 What I Learned From This Project
+
+✔ How packets travel across networks
+✔ Difference between TCP, UDP, and ICMP
+✔ Real-time traffic monitoring
+✔ Using Scapy for packet analysis
+✔ Git & GitHub workflow
+
+🛡 Ethical Disclaimer
+
+This tool is built strictly for learning and authorized testing.
+Please don’t use it to monitor networks without permission.
